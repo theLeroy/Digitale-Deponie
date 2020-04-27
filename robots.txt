@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+Disallow: /Public
+Disallow: /Public/
+Disallow: *.jpg
+Disallow: *.JPG
+Disallow: *.jpeg
+Disallow: *.JPEG
+Disallow: *.mp4
+Disallow: /photos
