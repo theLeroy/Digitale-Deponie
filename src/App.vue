@@ -46,6 +46,7 @@ body {
   font-family: 'Archivo', sans-serif;
   overflow-x: hidden;
   width: 100vw;
+  background-color: $sandbraun;
 }
 html {
   overflow-x: hidden;
