@@ -1,47 +1,10 @@
 <template>
   <div class="home">
     <div class="bluearea">
-ssasd
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>s
-<br>
-<br>
-<br>
-<br>
-<br>s
-<br>
-<br>
-<br>
-<br>
-<br>s
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-s
-s
-s
-scriptsr
-<br>
-<br>
-s
-<br>
-      <div class="BlueStarter">
-s
-      </div>
-asd
+
+      <BlueStarter :fixed="true"/>
     </div>
-    <div class="asd">
-sdsdsds
+    <div class="asd" ref="stoper">
     </div>
   </div>
 </template>
@@ -63,9 +26,8 @@ export default {
 }
 .bluearea {
   height: 1800px;
-  // transform: translateY(0px);
   width: 100%;
-  background: yellow;
+  background: $sandbraun;
 }
 .asd {
   height: 200vh;

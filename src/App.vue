@@ -32,10 +32,36 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Oswald';
+  src:  url('./assets/fonts/Oswald-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Oswald';
+  src:  url('./assets/fonts/Oswald-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oswald';
+  src:  url('./assets/fonts/Oswald-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: medium;
+}
 
 * {
   box-sizing: border-box;
   font-family: 'Archivo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+::selection {
+    background-color: $sandbraun;
+    color: $black;
+}
+
 }
 
 body {
@@ -47,6 +73,7 @@ body {
   overflow-x: hidden;
   width: 100vw;
   background-color: $sandbraun;
+
 }
 html {
   overflow-x: hidden;
