@@ -1,5 +1,5 @@
 <template>
-  <div class="wraper" :class="{fixed: fixed}">
+  <div class="wraper" v-bind:class="{fixed: fixed}">
     <div class="flexer" ref="bluebox" >
       Digitale<br>
       Deponie

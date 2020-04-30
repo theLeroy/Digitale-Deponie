@@ -2,7 +2,7 @@
   <div class="home">
     <div class="bluearea">
 
-      <BlueStarter :fixed="true"/>
+      <BlueStarter :fixed="fixed"/>
     </div>
     <div class="asd" ref="stoper">
     </div>
@@ -16,6 +16,28 @@ export default {
   name: 'Home',
   components: {
     BlueStarter
+  },
+  data: function () {
+    return {
+      fixed: true
+    }
+  },
+  methods: {
+    handleScroll (event) {
+
+        if(this.$refs.stoper.getBoundingClientRect().top < window.innerHeight) {
+          this.fixed = false
+          console.log("shd");
+        } else {
+          this.fixed = true
+        }
+    }
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
   },
 }
 </script>
