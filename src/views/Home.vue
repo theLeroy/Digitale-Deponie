@@ -50,6 +50,8 @@ export default {
   height: 1800px;
   width: 100%;
   background: $sandbraun;
+  display: inline-block;
+  position: relative;
 }
 .asd {
   height: 200vh;

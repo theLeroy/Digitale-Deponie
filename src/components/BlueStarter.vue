@@ -17,7 +17,6 @@ export default {
   },
   methods: {
     handleScroll (event) {
-      // alert("sd")
       this.$refs.bluebox.style.marginTop = '-'+window.scrollY+'px';
     }
   },
@@ -38,12 +37,12 @@ export default {
   width: 60vw;
   max-width: 80vw;
   max-height: 80vh;
-  margin-left: 50%;
-  margin-top: 50vh;
-  transform: translateX(-50%)  translateY(-50%);
-  position: relative;
+  margin-left: 50vw;
+  transform: translateX(-50%)  translateY(50%);
+  position: absolute;
   padding: 15px;
   overflow: hidden;
+  bottom: 50vh;
 }
 .flexer {
   position: relative;
@@ -54,6 +53,9 @@ export default {
   line-height: 1.15;
 }
 .fixed {
+  transform: translateX(-50%) translateY(-50%);
   position: fixed;
+  margin-top: 50vh;
+  bottom: unset;
 }
 </style>
