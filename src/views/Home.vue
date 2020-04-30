@@ -27,7 +27,6 @@ export default {
 
         if(this.$refs.stoper.getBoundingClientRect().top < window.innerHeight) {
           this.fixed = false
-          console.log("shd");
         } else {
           this.fixed = true
         }
