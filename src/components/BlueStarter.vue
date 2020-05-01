@@ -3,7 +3,6 @@
     <div class="flexer" ref="bluebox" >
       Digitale<br>
       Deponie
-      <div id="blottr-plain-text"></div>
     </div>
   </div>
 </template>
@@ -59,10 +58,5 @@ export default {
   margin-top: 50vh;
   bottom: unset;
 }
-#blottr-plain-text {
-  width: max-content;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-top: 40px;
-}
+
 </style>

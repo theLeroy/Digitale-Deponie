@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div id="blottr-plain-text"></div>
     <div class="bluearea">
 
       <BlueStarter :fixed="fixed"/>
@@ -64,5 +65,12 @@ export default {
   margin-top: 200px;
   box-sizing: border-box;
 top: 0;
+}
+#blottr-plain-text {
+  width: max-content;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 2000;
+  cursor: pointer;
 }
 </style>

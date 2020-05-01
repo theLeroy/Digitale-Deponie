@@ -60,10 +60,12 @@
 
 const text = new Blotter.Text('Janis Wanger', {
 	family: "'EB Garamond', serif",
-  size: 120,
+  size: 30,
 	fill: '#343330',
-	// paddingLeft : 400,
-  padding : 100,
+	paddingLeft : 30,
+	paddingRight : 30,
+	paddingTop : 20,
+	paddingBottom : 30,
 });
 
 let material = new Blotter.LiquidDistortMaterial();
