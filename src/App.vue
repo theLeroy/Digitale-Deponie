@@ -63,6 +63,9 @@ text-rendering: optimizeLegibility;
 }
 
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 body {
   // background-color: #12171D;

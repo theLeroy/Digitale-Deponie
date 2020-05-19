@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <Navframe :On="fixed"/>
+
     <div id="blottr-plain-text"></div>
     <div class="bluearea">
 
@@ -19,11 +21,13 @@
 
 <script>
 import BlueStarter from '@/components/BlueStarter.vue'
+import Navframe from '@/components/Navframe.vue'
 
 export default {
   name: 'Home',
   components: {
-    BlueStarter
+    BlueStarter,
+    Navframe
   },
   data: function () {
     return {

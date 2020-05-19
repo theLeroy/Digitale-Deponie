@@ -58,7 +58,7 @@
 //-----
 //-----
 
-const text = new Blotter.Text('Janis Wanger', {
+const text = new Blotter.Text('JW', {
 	family: "'EB Garamond', serif",
   size: 30,
 	fill: '#343330',
