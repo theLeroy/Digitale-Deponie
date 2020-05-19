@@ -6,6 +6,13 @@
       <BlueStarter :fixed="fixed"/>
     </div>
     <div class="asd" ref="stoper">
+      <div class="Navigation">
+        <span>Ig</span>
+        <span>Apfau</span>
+        <span>Texte</span>
+        <span>Biuder</span>
+        <span>Kontakt</span>
+      </div>
     </div>
   </div>
 </template>
@@ -34,10 +41,10 @@ export default {
     }
   },
   created () {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll)
   },
   destroyed () {
-    window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll)
   },
 }
 </script>
@@ -72,5 +79,15 @@ top: 0;
   position: fixed;
   z-index: 2000;
   cursor: pointer;
+}
+.Navigation {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: super;
+  span {
+    text-align: center;
+    margin: 20px;
+  }
 }
 </style>
