@@ -23,6 +23,7 @@ export default {
     display: none;
 }
 .navframe {
+  pointer-events: none;
   position: fixed;
   z-index: 99999999;
   width: 100%;
@@ -36,6 +37,7 @@ export default {
     width: 12px;
     height: 100%;
     transition-delay: .4s;
+    pointer-events: none;
   }
   .top {
     height: 30px;
@@ -55,6 +57,7 @@ export default {
     width: 100%;
     left: 0px;
     bottom: 0px;
+    pointer-events: none;
   }
 }
 .On {

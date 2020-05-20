@@ -7,7 +7,7 @@
 
       <BlueStarter :fixed="fixed"/>
     </div>
-    <div class="asd" ref="stoper">
+    <div class="stoper" ref="stoper">
       <div class="Navigation">
         <span>Ig</span>
         <span>Apfau</span>
@@ -64,9 +64,9 @@ export default {
   display: inline-block;
   position: relative;
 }
-.asd {
+.stoper {
   height: 200vh;
-  background-color: red;
+  background-color: $lightblue;
 }
 .BlueStarter {
   background-color: $lightblue;
@@ -75,7 +75,7 @@ export default {
   position: fixed;
   margin-top: 200px;
   box-sizing: border-box;
-top: 0;
+  top: 0;
 }
 #blottr-plain-text {
   width: max-content;
@@ -89,9 +89,16 @@ top: 0;
   height: 100%;
   text-align: center;
   vertical-align: super;
+  font-family: "Oswald";
   span {
     text-align: center;
     margin: 20px;
+    font-size: 3em;
+    cursor: pointer;
+  }
+  span:hover {
+    text-decoration: underline;
+
   }
 }
 </style>
